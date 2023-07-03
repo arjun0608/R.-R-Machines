@@ -1,0 +1,185 @@
+body {
+  background-color: black;
+}
+hr {
+  border: none;
+  height: 1px;
+  width: 90%;
+  max-width: 90%;
+  margin: auto;
+  background-color: white;
+  margin-top: 1rem;
+}
+.space {
+  margin-top: 50px;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo a {
+  margin-left: 20px;
+  color: yellow;
+  font-family: var(--font3);
+  font-size: 35px;
+}
+.logo a:hover {
+  transform: scale(1.1);
+  color: yellow;
+  filter: brightness(100px);
+  transition: 0.3s ease-in-out;
+}
+.tabs ul li a {
+  font-family: var(--font4);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.tabs ul li {
+  width: 100%;
+}
+.tabs ul li:hover {
+  background-color: yellow;
+  transition: 0.3s;
+}
+.tabs ul li {
+  margin: 0.7vw;
+  width: auto;
+  min-width: 9vw;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  color: azure;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  position: absolute;
+  top: 200px;
+}
+.banner h1 {
+  font-family: var(--font4);
+  font-size: 30px;
+}
+.banner span {
+  color: rgb(201, 201, 6);
+  font-family: var(--font4);
+  font-size: 15px;
+}
+.nav-banner {
+  background-image: url("Images/Banner.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 20px;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+
+.collapse {
+  /* background-color: rgba(245, 245, 245, 0.1); */
+  background-color: rgba(28, 28, 28, 0.825);
+  transition: 0.3s ease-in-out;
+  width: 900px;
+  z-index: 1;
+}
+.collapse:hover {
+  background-color: rgb(28, 28, 28);
+  transition: 0.3s ease-in-out;
+}
+.navbar-toggler {
+  background-color: azure;
+  height: 50px;
+}
+
+.high-priority-machines {
+  /* background-color: white; */
+  width: 95%;
+  height: auto;
+  padding: 2vw;
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 95%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.heading {
+  width: 95%;
+  position: relative;
+  top: 50px;
+  color: white;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading h1 {
+  font-size: 1.8em;
+  font-family: var(--font1);
+}
+.heading span {
+  font-size: 12px;
+  font-family: var(--font1);
+  margin-top: 30px;
+  color: rgb(211, 211, 211);
+}
+.heading span:hover {
+  color: blue;
+  transition: 0.3s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card {
+  width: 23em;
+  height: 36em;
+  color: white;
+  margin: 2vw;
+  background-color: rgba(255, 255, 255, 0.144);
+}
+.card img {
+  width: 90%;
+  height: 60%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+.card-info {
+  width: 90%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+.card-info h1 {
+  font-size: 1.5em;
+  font-family: var(--font4);
+}
+
+.card-info span {
+  font-size: 1.1em;
+  font-family: var(--font4);
+  color: rgb(177, 177, 177);
+}
+
+.card-info button {
+  margin-top: 1em;
+  font-size: 1.2em;
+  width: 100%;
+  font-family: var(--font4);
+}

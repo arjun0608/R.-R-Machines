@@ -1,0 +1,18 @@
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Press Start 2P */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* Lexend Peta */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap");
+
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Press Start 2P", cursive;
+  --font3: "Lexend Peta", sans-serif;
+  --font4: "Montserrat", sans-serif;
+}
