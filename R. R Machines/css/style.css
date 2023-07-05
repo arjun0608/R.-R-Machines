@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(2, 7, 9);
 }
 hr {
   border: none;
@@ -147,7 +147,14 @@ hr {
   height: 36em;
   color: white;
   margin: 2vw;
-  background-color: rgba(255, 255, 255, 0.144);
+  background-color: rgba(255, 255, 255, 0.085);
+}
+
+.card:hover {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.446);
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
 }
 .card img {
   width: 90%;
@@ -182,4 +189,23 @@ hr {
   font-size: 1.2em;
   width: 100%;
   font-family: var(--font4);
+}
+
+.mid-banner {
+  background-color: white;
+  width: 95%;
+  font-family: var(--font4);
+}
+.mid-banner h1 {
+  font-size: 1.9em;
+}
+@media screen and (max-width: 900px) {
+  .mid-banner h1 {
+    font-size: 1.2em;
+  }
+}
+
+.mid-banner-image img {
+  width: 30%;
+  height: 50%;
 }
