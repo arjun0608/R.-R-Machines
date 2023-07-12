@@ -10,6 +10,9 @@ hr {
   background-color: white;
   margin-top: 1rem;
 }
+.nav-banner {
+  background-color: rgb(17, 17, 17);
+}
 .space {
   margin-top: 50px;
 }
@@ -80,18 +83,59 @@ hr {
   height: 20px;
 }
 .navbar {
-  background-color: transparent;
+  background-color: black;
   color: white;
 }
 
 .collapse {
   /* background-color: rgba(245, 245, 245, 0.1); */
-  background-color: rgba(28, 28, 28, 0.825);
+  /* background-color: rgba(28, 28, 28, 0.825); */
+  background-color: rgb(28, 28, 28);
   transition: 0.3s ease-in-out;
   width: 900px;
   z-index: 1;
 }
+
+@media screen and (min-width: 993px) {
+  .collapse {
+    /* background-color: rgba(245, 245, 245, 0.1); */
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 78px;
+    left: 0;
+  }
+  .tabs ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabs ul li a {
+    color: black;
+  }
+  .tab-box {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+.btn-group {
+  margin-left: 1vw;
+}
+.icons {
+  display: flex;
+  margin-right: 0.1vw;
+}
+.icons i {
+  margin: 0 1.5vw;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 0.3vw;
+}
 .collapse:hover {
+  color: white;
   background-color: rgb(28, 28, 28);
   transition: 0.3s ease-in-out;
 }
